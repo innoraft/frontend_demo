@@ -1,0 +1,302 @@
+/* line 2, ../sass/style.scss */
+body {
+  background-color: #d7d7d7;
+  position: relative;
+}
+
+/* line 7, ../sass/style.scss */
+* {
+  margin: 0;
+  padding: 0;
+  border: none !important;
+}
+
+/* line 13, ../sass/style.scss */
+.no-gutter > [class*='col-'] {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+/* line 18, ../sass/style.scss */
+.wrap_1 {
+  margin-top: 40px;
+}
+/* line 19, ../sass/style.scss */
+.wrap_1 h2 {
+  color: #333333;
+  font-size: 20px;
+  border-bottom: 1px solid #333333;
+  margin-bottom: 10px;
+}
+/* line 26, ../sass/style.scss */
+.wrap_1 .block {
+  background: #ffa700;
+  text-align: center;
+}
+@media (max-width: 767px) {
+  /* line 26, ../sass/style.scss */
+  .wrap_1 .block {
+    margin-bottom: 20px;
+  }
+}
+/* line 32, ../sass/style.scss */
+.wrap_1 .block .block_inner {
+  padding: 30px 10px;
+}
+/* line 34, ../sass/style.scss */
+.wrap_1 .block .block_inner i {
+  color: #ffffff;
+  margin: 0 0 20px 0;
+}
+/* line 38, ../sass/style.scss */
+.wrap_1 .block .block_inner h2 {
+  font-size: 15px;
+  color: #fff;
+  margin: 0 0 0 0;
+  padding: 0 0 20px 0;
+}
+/* line 44, ../sass/style.scss */
+.wrap_1 .block .block_inner p {
+  font-size: 15px;
+  color: #fff;
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+  line-height: 28px;
+}
+/* line 45, ../sass/style.scss */
+.wrap_1 .block .block_inner p:before {
+  content: '\f040';
+  font-family: 'FontAwesome';
+  font-size: 28px;
+  color: #ffffff;
+}
+
+/* line 61, ../sass/style.scss */
+.number_counter_div {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+/* line 62, ../sass/style.scss */
+.number_counter_div h2 {
+  color: #333333;
+  font-size: 20px;
+  border-bottom: 1px solid #333333;
+  margin-bottom: 10px;
+}
+/* line 70, ../sass/style.scss */
+.number_counter_div .number_inner {
+  background: #0062ff;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+/* line 74, ../sass/style.scss */
+.number_counter_div .number_inner .number_box {
+  text-align: center;
+}
+/* line 76, ../sass/style.scss */
+.number_counter_div .number_inner .number_box span {
+  color: #ffffff;
+  font-size: 38px;
+}
+
+/* line 85, ../sass/style.scss */
+#kb ol.carousel-indicators li {
+  border: 1px solid #fff !important;
+  width: 10px;
+  height: 10px;
+}
+/* line 89, ../sass/style.scss */
+#kb ol.carousel-indicators li .active {
+  width: 14px;
+  height: 14px;
+  margin: 0;
+  background-color: #fff;
+}
+/* line 97, ../sass/style.scss */
+#kb .carousel-inner img {
+  width: 100%;
+}
+/* line 101, ../sass/style.scss */
+#kb .carousel-inner .carousel-caption h3 {
+  font-size: 36px;
+  -webkit-animation-duration: 3s;
+}
+/* line 104, ../sass/style.scss */
+#kb .carousel-inner .carousel-caption h3 .new_box {
+  width: 100px;
+  height: 100px;
+  background-color: #b10303;
+  margin: 20px auto 20px auto;
+}
+/* line 111, ../sass/style.scss */
+#kb .carousel-inner .carousel-caption p {
+  font-size: 26px;
+}
+/* line 116, ../sass/style.scss */
+#kb .carousel-control.left {
+  background-image: none;
+  background-repeat: none;
+}
+/* line 120, ../sass/style.scss */
+#kb .carousel-control.right {
+  background-image: none;
+  background-repeat: none;
+}
+
+/* line 126, ../sass/style.scss */
+.slide_div {
+  width: 290px;
+  height: 100%;
+  position: fixed;
+  right: -235px;
+  top: 0;
+  z-index: 9999;
+  outline: none;
+}
+
+/* line 136, ../sass/style.scss */
+.slide_div_left {
+  width: 50px;
+  float: left;
+}
+
+/* line 141, ../sass/style.scss */
+.new_click {
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+/* line 146, ../sass/style.scss */
+.new_click i {
+  padding: 5px 10px;
+  background: #fff;
+  border-radius: 8px;
+}
+
+/* line 152, ../sass/style.scss */
+.slide_div_right {
+  width: 235px;
+  float: right;
+  background: #006c8d;
+  height: 100%;
+}
+
+/* line 159, ../sass/style.scss */
+.slide_div {
+  width: 290px;
+  height: 100%;
+  position: fixed;
+  right: -235px;
+  top: 0;
+  z-index: 9999;
+  outline: none;
+}
+
+/* line 169, ../sass/style.scss */
+.slide_div_left {
+  width: 50px;
+  float: left;
+}
+
+/* line 174, ../sass/style.scss */
+.new_click {
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+/* line 179, ../sass/style.scss */
+.new_click i {
+  padding: 5px 10px;
+  background: #fff;
+  border-radius: 8px;
+}
+
+/* line 185, ../sass/style.scss */
+.slide_div_right {
+  width: 235px;
+  float: right;
+  background: #006c8d;
+  height: 100%;
+}
+
+/* line 192, ../sass/style.scss */
+.inner {
+  padding: 20px;
+}
+
+/* line 196, ../sass/style.scss */
+.inner h2 {
+  color: #fff;
+  font-size: 28px;
+  margin: 0 0 15px 0;
+  padding: 0 0 0 0;
+}
+
+/* line 203, ../sass/style.scss */
+ul.list li {
+  list-style: none;
+}
+
+/* line 207, ../sass/style.scss */
+ul.list li a {
+  color: #fff;
+  font-size: 16px;
+  line-height: 33px;
+}
+
+/* line 213, ../sass/style.scss */
+.block_div {
+  margin-bottom: 70px;
+}
+/* line 215, ../sass/style.scss */
+.block_div h2 {
+  color: #333333;
+  font-size: 16px;
+  line-height: 33px;
+}
+/* line 221, ../sass/style.scss */
+.block_div .blockcontainer {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: auto;
+}
+/* line 226, ../sass/style.scss */
+.block_div .blockcontainer:hover .textbox {
+  left: 0;
+}
+/* line 229, ../sass/style.scss */
+.block_div .blockcontainer:hover img {
+  margin-left: 100%;
+}
+/* line 232, ../sass/style.scss */
+.block_div .blockcontainer .textbox {
+  position: absolute;
+  text-align: center;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background-color: #ffbc06;
+  -webkit-transition: all 1s ease-in;
+  transition: all 1s ease-in;
+}
+/* line 233, ../sass/style.scss */
+.block_div .blockcontainer .textbox h3 {
+  font-size: 30px;
+  color: #ffffff;
+}
+/* line 248, ../sass/style.scss */
+.block_div .blockcontainer img {
+  margin-left: 0;
+  width: 100%;
+  -webkit-transition: all 1s ease-in;
+  transition: all 1s ease-in;
+}
+
+/* line 258, ../sass/style.scss */
+.form_feature {
+  margin-bottom: 50px;
+}
+
+/*# sourceMappingURL=style.css.map */
