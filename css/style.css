@@ -299,4 +299,90 @@ ul.list li a {
   margin-bottom: 50px;
 }
 
+/* line 262, ../sass/style.scss */
+.filter_div {
+  margin-bottom: 60px;
+}
+/* line 263, ../sass/style.scss */
+.filter_div .margin_1 {
+  margin-bottom: 30px;
+}
+/* line 264, ../sass/style.scss */
+.filter_div h2 {
+  font-size: 24px;
+  color: #333333;
+  margin-bottom: 20px;
+}
+/* line 265, ../sass/style.scss */
+.filter_div p {
+  margin-top: 8px;
+  font-size: 18px;
+}
+/* line 267, ../sass/style.scss */
+.filter_div .img_1 {
+  -webkit-filter: blur(2.5px);
+  filter: blur(2.5px);
+  transition: all .5s;
+}
+/* line 270, ../sass/style.scss */
+.filter_div .img_1:hover {
+  -webkit-filter: blur(0px);
+  filter: blur(0px);
+}
+/* line 276, ../sass/style.scss */
+.filter_div .img_2 {
+  -webkit-filter: brightness(0.6);
+  filter: brightness(0.6);
+  transition: all .5s;
+}
+/* line 279, ../sass/style.scss */
+.filter_div .img_2:hover {
+  -webkit-filter: brightness(1);
+  filter: brightness(1);
+}
+/* line 284, ../sass/style.scss */
+.filter_div .img_3 {
+  -webkit-filter: grayscale(0.75);
+  filter: grayscale(0.75);
+  transition: all .5s;
+}
+/* line 287, ../sass/style.scss */
+.filter_div .img_3:hover {
+  -webkit-filter: grayscale(0.1);
+  filter: grayscale(0.1);
+}
+/* line 292, ../sass/style.scss */
+.filter_div .img_4 {
+  -webkit-filter: opacity(40%);
+  filter: opacity(40%);
+  transition: all .5s;
+}
+/* line 295, ../sass/style.scss */
+.filter_div .img_4:hover {
+  -webkit-filter: opacity(100%);
+  filter: opacity(100%);
+}
+/* line 300, ../sass/style.scss */
+.filter_div .img_5 {
+  -webkit-filter: sepia(1);
+  filter: sepia(1);
+  transition: all .5s;
+}
+/* line 303, ../sass/style.scss */
+.filter_div .img_5:hover {
+  -webkit-filter: sepia(0.1);
+  filter: sepia(0.1);
+}
+/* line 308, ../sass/style.scss */
+.filter_div .img_6 {
+  -webkit-filter: drop-shadow(0px 0px 5px #000);
+  filter: drop-shadow(0px 0px 5px #000);
+  transition: all .5s;
+}
+/* line 311, ../sass/style.scss */
+.filter_div .img_6:hover {
+  -webkit-filter: drop-shadow(4px 4px 5px #000);
+  filter: drop-shadow(4px 4px 5px #000);
+}
+
 /*# sourceMappingURL=style.css.map */
