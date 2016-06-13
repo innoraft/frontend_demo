@@ -15,6 +15,7 @@
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" type="text/css" href="css/bootstrap-material-design.min.css">
     <link rel="stylesheet" type="text/css" href="css/ripples.min.css">
+    <link rel="stylesheet" type="text/css" href="css/jqvmap.css">
    
     
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -51,7 +52,7 @@
             </div>
         </div>
         <div class="clearfix"></div>
-    </div>
+    </div>    
                                <div class="container-fluid">
         <div class="row no-gutter">
             <div class="col-md-12">
@@ -104,6 +105,22 @@
                     </a>
                 </div>
             </div>
+        </div>
+    </div>  
+                               <div class="container wrap_1">
+        <h2>Animated text</h2>
+        <div class="row">
+            <div class="col-sm-4 ">
+              <div id="demo1"></div>
+            </div>
+            <div class="col-sm-8 ">
+              <div class="type_text">
+                   <p>This is animated text with typewriter effect.</p>
+                  <p><strong>Here Comes dummy text -</strong> Plusieurs variations de Lorem Ipsum peuvent être trouvées ici ou là, mais la majeure partie d'entre elles a été altérée par l'addition d'humour ou de mots aléatoires qui ne ressemblent pas une seconde à du texte standard.</p>
+                </div>
+            </div>
+           
+            
         </div>
     </div>
                               <div class="container wrap_1">
@@ -352,8 +369,8 @@
 
     </div>
                                 <div class="container filter_div">
-        <h2>Css Filters with Hover <span>(hover on each image to see effects)</span></h2>
-        <div class="row">
+                                <h2>Css Filters with Hover <span>(hover on each image to see effects)</span></h2>
+                                <div class="row">
             <div class="col-sm-4 margin_1">
                 <img src="images/n1.jpg" alt="" class="img_1 img-responsive" />
                 <p>Blur effect</p>
@@ -380,7 +397,18 @@
             </div>
 
         </div>
+                                    
+                                 
+
+
     </div>
+                                <div class="container map_div">
+                                            <div class="row">
+                                                        <div class="col-sm-12">
+                                                            <div id="vmap" style="width: 100%; height: 400px;"></div>
+                                                </div>
+                                            </div>
+                                </div>
 
      
 
@@ -390,10 +418,41 @@
 
     <script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
+     <script src="js/jquery.typedtext.js"></script>
+    <script src="js/jquery.typewriter.js"></script>
     <script src="js/modernizr.custom.js"></script>
     <script src="js/jquery.matchHeight.js" type="text/javascript"></script>
     <script src="js/jquery.counterup.min.js" type="text/javascript"></script>
     <script src="js/waypoints.min.js" type="text/javascript"></script>
+    <script>
+      jQuery(document).ready(function () {
+        jQuery('#vmap').vectorMap({
+          map: 'usa_en',
+          enableZoom: true,
+          showTooltip: true,
+          selectedColor: null,
+          hoverColor: '#e0e0e0',
+          colors: {
+            mo: '#C9DFAF',
+            fl: '#C9DFAF',
+            nv: '#9aa1ff',
+            oh: '#3088bf',
+            wv: '#bfae30',
+            de: '#bf6230',
+            md: '#d798ff',
+            tx: '#fff580',
+            mt: '#ff7575',
+            ca: '#70a366',
+            ne: '#ca90e3',
+            or: '#C9DFAF'
+          },
+          onRegionClick: function(event, code, region){
+            event.preventDefault();
+          }
+        });
+      });
+    </script>
+
     <script type="text/javascript">
         $(function () {
             if ($(window).width() >= 767) {
@@ -494,6 +553,10 @@
 
         })();
     </script>
+   <script type="text/javascript" src="js/jquery.vmap.js"></script>
+    <script type="text/javascript" src="js/jquery.vmap.usa.js" charset="utf-8"></script>
+
+    
     
 
 </body>

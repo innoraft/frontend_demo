@@ -27,3 +27,8 @@ $(".slide_div").blur(function () {
         right: "0"
     });
 });
+
+
+$("#demo1").typedText("This Is Animated Text.<br/> Refresh Page Again ", "slow");
+
+$(".type_text p").typewriter();
